@@ -1,4 +1,4 @@
-from rdflib import Graph, URIRef, Namespace, Literal
+from rdflib import Graph, Literal
 import os
 import uuid
 import shutil
