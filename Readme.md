@@ -94,7 +94,7 @@ linkset = Linkset()
 ```
 
 ### 3.1. Link Elements
-Linksets are formed by two Link Elements.Link Elements can be assigned to a full file, or to specific elements within a file. To do the later, different types of Identifiers are supported:
+Links are formed by two Link Elements.Link Elements can be assigned to a full file, or to specific elements within a file. Regarding the later, different types of Identifiers are supported:
 
 - `URIBasedIdentifier`
 - `StringBasedIdentifier`
@@ -131,8 +131,8 @@ linkset.add_link(link)
 Once all Links are placed within a Linkset, they can be added to the container. Once the container has all necessary Documents and Linksets, it can be created using the `create()` fucntion:
 
 ```python
-container.add_linkset(linkset_img)
-container.add_linkset(linkset_docs)
+# Add Linksets
+container.add_linkset(linkset)
 
 ## Create the container
 path = "desired_container_path"
@@ -143,7 +143,7 @@ container.create(path)
 For further assistance, questions, or feedback, you can reach out to us by email to  [carlos.ramonell@upc.edu](mailto:carlos.ramonell@upc.edu)
 
 
-We appreciate your interest and contributions to the
+We appreciate your interest and contributions to the project!
 
 
 
