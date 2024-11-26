@@ -13,9 +13,6 @@ import uuid
 ### 1.1. Import Container
 
 ```python
-from ICDD import *
-import uuid
-
 # Initialize new Container
 container = Container()
 
